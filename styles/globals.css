@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-bg text-white;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md bg-accent/20 hover:bg-accent/30 text-accent border border-accent/40 transition-colors;
+}
+
+.panel {
+  @apply bg-panel/90 backdrop-blur rounded-xl border border-white/10 shadow-glow;
+}
